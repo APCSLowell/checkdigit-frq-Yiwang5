@@ -1,7 +1,7 @@
 public class CheckDigit 
 {   
-  /** Returns the check digit for num, as described in part (a).  
-   *  Precondition: The number of digits in num is between one and    
+  /* * Returns the check digit for num, as described in part (a).  
+   *  Precondition:The number of digits in num is between one and    
    *  six, inclusive.  
    *          num >= 0  
    */  
