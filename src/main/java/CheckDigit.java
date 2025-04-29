@@ -23,8 +23,8 @@ public class CheckDigit
    */     
    public static boolean isValid(int numWithCheckDigit)    
    {      
-     int lastDigit = num % 10; 
-     int remaining = num / 10; 
+     int lastDigit = numWithCheckDigit % 10; 
+     int remaining = numWithCheckDigit / 10; 
      return getCheck(remaining) == lastDigit;
    }    
    
